@@ -1,0 +1,27 @@
+/* HomePage.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* ✅ Center items horizontally */
+    justify-content: center; /* ✅ Center items vertically */
+    text-align: center; /* ✅ Ensure text is centered */
+    width: 100%;
+    min-height: 100vh;
+    gap: 20px; /* ✅ Add spacing between sections */
+    padding: 50px 20px;
+}
+
+/* Ensure each section is centered */
+.hero-container,
+.awards-container,
+.stats-container,
+.pricing-container,
+.eduction-container,
+.open-account-container {
+    width: 100%;
+    max-width: 1200px; /* ✅ Set max width for responsiveness */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
